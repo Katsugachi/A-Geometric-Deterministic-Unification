@@ -14,6 +14,17 @@
             padding: 40px;
             background-color: #eef2f3;
         }
+        .img-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .img-container img {
+            max-width: 100%; /* Ensures it doesn't overflow the paper */
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+        }
         .paper-container {
             background-color: #ffffff;
             padding: 60px;
@@ -149,7 +160,12 @@
 
     <h2>5. Conclusion</h2>
     <p>The GDU theory marks the transition from probabilistic physics to <strong>Geometric Determinism</strong>. By understanding the Programmed Chaos of our origin, we can predict that while our current window of stability is long-lasting, the nature of chaos allows for future bifurcations. We are the observers of a beautifully knotted, self-similar manifold.</p>
-    <img src="branch.png" alt="the branching structure of fundamental forces through chaos theory">
+    <div class="img-container">
+        <img src="branch.png" alt="The branching structure of fundamental forces through chaos theory">
+        <p style="font-size: 0.8em; color: #666; font-style: italic;">
+            Figure 1: Fractal branching of the $SO(10)$ parent force on the Temporal Substrate.
+        </p>
+    </div>
     <footer>
         &copy; 2026 GDU Research Archive | "Geometry Holds Everything" |
     </footer>
@@ -158,4 +174,5 @@
 </body>
 
 </html>
+
 
